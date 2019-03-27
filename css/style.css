@@ -5,9 +5,65 @@
 }
 
 body {
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: 1px;
+}
 
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  padding: .6rem;
+}
+
+a {
+  text-decoration: none;
+  color: white
+}
+
+h1 {
+  margin: 0;
 }
 
 .over-text {
+  display: none;
+}
+
+header {
+  position: relative;
+  background: linear-gradient(transparent, transparent 70%), linear-gradient(0deg, #000, transparent),
+  #1078cf url('../images/main.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.main {
+  /* center the content */
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 2rem;
+  background: -webkit-linear-gradient(#FF1800, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-family: 'Nosifer', cursive;
+}
+
+.hidden {
   display: none;
 }
