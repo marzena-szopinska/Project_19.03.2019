@@ -104,11 +104,11 @@ header {
   transition: filter .4s ease;
 }
 
-.image img:hover {
+.image:hover img {
   filter: grayscale(0);
 }
 
-.image img:hover + .over-text {
+.image:hover .over-text {
   animation: fadeInDown 3s ease;
   opacity: 1;
 }
@@ -128,21 +128,6 @@ header {
   color: red;
   font-family: 'Nosifer', cursive;
 }
-
-
-
-
-/*.nav-bar ul li:nth-child(odd):hover {
-  background-color: orange;
-  transform: skewY(7deg);
-}
-
-.nav-bar ul li:nth-child(even):hover {
-  background-color: rgba(222, 40, 31, 0.1);
-  color: white;
-  transform: skewY(-7deg);
-}
-*/
 
 .hidden {
   display: none;
