@@ -109,6 +109,7 @@ header {
 }
 
 .image img:hover + .over-text {
+  animation: fadeInDown 3s ease;
   opacity: 1;
 }
 
@@ -119,7 +120,6 @@ header {
   background-color: rgba(17, 17, 17, 0.6);
   padding: .75rem;
   height: 50%;
-  transition: opacity .4s ease;
 }
 
 .over-text h4 {
@@ -147,6 +147,28 @@ header {
 .hidden {
   display: none;
 }
+
+@-webkit-keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       -webkit-transform: translateY(-20px);
+    }
+    100% {
+       opacity: 1;
+       -webkit-transform: translateY(0);
+    }
+ }
+
+ @keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ }
 
 @keyframes fadeInText {
   from {
