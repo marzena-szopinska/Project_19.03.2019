@@ -41,8 +41,12 @@ h1 {
 }
 
 h2 {
-  text-transform: uppercase;
-  border-right: 3px solid white;
+  font-family: 'Nosifer', cursive;
+  border-right: 3px solid red;
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red;
 }
 
 header {
@@ -125,8 +129,6 @@ header {
 .over-text h4 {
   margin-bottom: 5px;
   text-transform: uppercase;
-  color: red;
-  font-family: 'Nosifer', cursive;
 }
 
 .hidden {
